@@ -54,7 +54,7 @@ Open the URL in your web browser and start using Jupyter. You can create new not
 
 That's it! Now you should be able to run Jupyter using the datascience Docker image on your local machine.
 
-## Running The Notebook From Jupyter
+## Accessing The Crypto Trade Finder Notebook From Jupyter's Web Interface
 
 1. From the Jupyter homepage, click on the "New" button on the right and select "Terminal".
 
