@@ -22,9 +22,9 @@ Start Docker: Once installed, start the Docker application on your computer.
 
 Pull the datascience Docker image: Open the terminal or command prompt and run the following command to pull the datascience Docker image:
 
-bash
-
+```
 docker pull jupyter/datascience-notebook
+```
 
 Run the Docker image: Run the following command to start a Jupyter server with the datascience environment:
 
