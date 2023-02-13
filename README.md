@@ -1,4 +1,5 @@
 # The CCXT Crypto Currency Trade Finder Notebook
+### By: Rahim Khoja (rahim@khoja.ca)
 
 ## Description 
 
@@ -53,6 +54,7 @@ http://127.0.0.1:8888/
 Open the URL in your web browser and start using Jupyter. You can create new notebooks, open existing notebooks, and run code in the datascience environment.
 
 That's it! Now you should be able to run Jupyter using the datascience Docker image on your local machine.
+
 
 ## Accessing The Crypto Trade Finder Notebook From Jupyter's Web Interface
 
