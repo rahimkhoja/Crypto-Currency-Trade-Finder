@@ -22,25 +22,35 @@ Install Docker:
  - On Mac: Download the Docker Desktop for Mac from the official website and follow the installation instructions.
  - On Linux: Follow the instructions specific to your distribution from the official Docker website.
 
-Start Docker: Once installed, start the Docker application on your computer.
+### Start Docker: 
 
-Pull the datascience Docker image: Open the terminal or command prompt and run the following command to pull the datascience Docker image:
+Once installed, start the Docker application on your computer.
+
+### Pull the datascience Docker image: 
+
+Open the terminal or command prompt and run the following command to pull the datascience Docker image:
 
 ```bash
 docker pull jupyter/datascience-notebook
 ```
 
-Run the Docker image: Run the following command to start a Jupyter server with the datascience environment:
+### Run the Docker image: 
+
+Run the following command to start a Jupyter server with the datascience environment:
 
 ```bash
 docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes jupyter/datascience-notebook start.sh jupyter lab --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=''
 ```
 
-Connect to Jupyter: Once the command has completed, just go to the following URL on your browser to access Jupyter.
+### Connect to Jupyter: 
 
-    http://127.0.0.1:8888/
+Once the command has completed, just go to the following URL on your browser to access Jupyter.
 
-    Start using Jupyter: Open the URL in your web browser and start using Jupyter. You can create new notebooks, open existing notebooks, and run code in the datascience environment.
+http://127.0.0.1:8888/
+
+### Start using Jupyter: 
+
+Open the URL in your web browser and start using Jupyter. You can create new notebooks, open existing notebooks, and run code in the datascience environment.
 
 That's it! Now you should be able to run Jupyter using the datascience Docker image on your local machine.
 
