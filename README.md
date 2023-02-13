@@ -16,7 +16,7 @@ In conclusion, Jupyter Notebook is a tool for interactive computing and data ana
 
 ## Installing Jupyter Notebook
 
-Install Docker:
+### Install Docker:
 
  - On Windows: Download the Docker Desktop for Windows from the official website and follow the installation instructions.
  - On Mac: Download the Docker Desktop for Mac from the official website and follow the installation instructions.
@@ -54,3 +54,16 @@ Open the URL in your web browser and start using Jupyter. You can create new not
 
 That's it! Now you should be able to run Jupyter using the datascience Docker image on your local machine.
 
+## Running The Notebook From Jupyter
+
+1. From the Jupyter homepage, click on the "New" button on the right and select "Terminal".
+
+2. In the terminal, run the following commands to clone the Git repository:
+
+```bash
+git clone https://github.com/rahimkhoja/crypto_notebooks.git
+```
+  
+3. Return to the Jupyter homepage and navigate to the cloned repository in the file browser on the left.
+
+4. Click on the file CCXT Crypto Currency Trade Finder Notebook.ipynb to open it.
