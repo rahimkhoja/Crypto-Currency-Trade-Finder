@@ -63,7 +63,7 @@ That's it! Now you should be able to run Jupyter using the datascience Docker im
 2. In the terminal, run the following commands to clone the Git repository:
 
 ```bash
-git clone https://github.com/rahimkhoja/crypto_notebooks.git
+git clone https://github.com/rahimkhoja/Crypto-Currency-Trade-Finder.git
 ```
   
 3. Return to the Jupyter homepage and navigate to the cloned repository in the file browser on the left.
